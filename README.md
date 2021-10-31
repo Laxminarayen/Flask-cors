@@ -7,6 +7,9 @@
   <img src="Screenshot 2021-10-31 at 10.41.11 AM.png" width="350" title="Security Group configurations on EC2 Instance (Allow all traffic)!">
 </p>
 
+  <h4> Connection </h4>
+  Windows: https://www.youtube.com/watch?v=f52IOtTqcP8&t=310s <br>
+  Mac: using the link from the connect tab! 
 
 <h4>Installations to set up envs:</h4>
 sudo apt-get update <br>
