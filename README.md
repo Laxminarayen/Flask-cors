@@ -3,7 +3,10 @@ The sever that we created is a t2.micro instance <br>
 Server: Ubuntu Server 20.04 LTS (HVM) <br>
 
 #Add security configs: <br>
-![Screenshot](Screenshot 2021-10-31 at 10.41.11 AM.png)
+<p align="center">
+  <img src="yScreenshot 2021-10-31 at 10.41.11 AM.png" width="350" title="hover text">
+  <img src="Screenshot 2021-10-31 at 10.41.11 AM.png" width="350" alt="accessibility text">
+</p>
 
 
 #Installations to set up envs: <br>
