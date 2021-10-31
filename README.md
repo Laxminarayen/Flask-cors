@@ -1,8 +1,8 @@
-#Steps to set up an EC2 Ubuntu instance <br>
-The sever that we created is a t2.micro instance <br>
-Server: Ubuntu Server 20.04 LTS (HVM) <br>
+<h1>Steps to set up an EC2 Ubuntu instance<h1> <br>
+<h3> The sever that we created is a t2.micro instance <h3> <br>
+<h3> Server: Ubuntu Server 20.04 LTS (HVM) <h3> <br>
 
-#Add security configs: <br>
+  <b>Add security configs: </b> <br>
 <p align="center">
   <img src="Screenshot 2021-10-31 at 10.41.11 AM.png" width="350" title="Security Group configurations on EC2 Instance (Allow all traffic)!">
 </p>
