@@ -1,31 +1,31 @@
-#Steps to set up an EC2 Ubuntu instance 
-The sever that we created is a t2.micro instance 
-Server: Ubuntu Server 20.04 LTS (HVM)
+#Steps to set up an EC2 Ubuntu instance <br>
+The sever that we created is a t2.micro instance <br>
+Server: Ubuntu Server 20.04 LTS (HVM) <br>
 
-#Add security configs:
+#Add security configs: <br>
 
 
 
-#Installations to set up envs: 
+#Installations to set up envs: <br>
 sudo apt-get update <br>
-sudo apt-get install python3
-sudo apt-get install python3-pip
-sudo pip install flask
-sudo apt-get install nginx
-sudo apt install gunicorn
+sudo apt-get install python3 <br>
+sudo apt-get install python3-pip <br>
+sudo pip install flask <br>
+sudo apt-get install nginx <br>
+sudo apt install gunicorn <br>
 
-#Make a folder 
-mkdir flask-app 
-sudo nano app.py 
+#Make a folder <br>
+mkdir flask-app  <br>
+sudo nano app.py <br>
 
-#After creating the flask app set up Gunicorn and nginx
-cd /etc/nginx
-cd sites-enabled
-sudo vi flaskapp
-<Copy configs and edit from https://gunicorn.org/#deployment>
-sudo service nginx restart
-cd ~ 
+#After creating the flask app set up Gunicorn and nginx <br>
+cd /etc/nginx <br>
+cd sites-enabled <br>
+sudo vi flaskapp <br>
+<Copy configs and edit from https://gunicorn.org/#deployment> <br>
+sudo service nginx restart <br>
+cd ~  <br>
 
-#To run the app 
-python3 app.py (or) gunicorn app:app
+#To run the app <br>
+python3 app.py (or) gunicorn app:app <br>
 
