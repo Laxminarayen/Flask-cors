@@ -24,7 +24,9 @@ sudo nano app.py <br>
 cd /etc/nginx <br>
 cd sites-enabled <br>
 sudo vi flaskapp <br>
-<Copy configs and edit from https://gunicorn.org/#deployment> <br>
+<p align="center">
+  <img src="Screenshot 2021-10-31 at 10.50.20 AM.png" width="350" title="Security Group configurations on EC2 Instance (Allow all traffic)!">
+</p> <br>
 sudo service nginx restart <br>
 cd ~  <br>
 
