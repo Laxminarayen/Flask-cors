@@ -4,7 +4,7 @@ Server: Ubuntu Server 20.04 LTS (HVM) <br>
 
 #Add security configs: <br>
 <p align="center">
-  <img src="yScreenshot 2021-10-31 at 10.41.11 AM.png" width="350" title="hover text">
+  <img src="yScreenshot 2021-10-31 at 10.41.11 AM.png" width="350" title="Security Group configurations on EC2 Instance (Allow all traffic)!">
   <img src="Screenshot 2021-10-31 at 10.41.11 AM.png" width="350" alt="accessibility text">
 </p>
 
