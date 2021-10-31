@@ -7,7 +7,7 @@ Server: Ubuntu Server 20.04 LTS (HVM)
 
 
 #Installations to set up envs: 
-sudo apt-get update
+sudo apt-get update <br>
 sudo apt-get install python3
 sudo apt-get install python3-pip
 sudo pip install flask
